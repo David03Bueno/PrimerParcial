@@ -20,4 +20,4 @@ jobs:
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }} # usamos la API key guardada en GitHub Secrets
         run: |
-          surge ./ https://david03bueno@gmail.com.surge.sh --token $SURGE_TOKEN
+          surge ./ https://david03bueno.surge.sh --token $SURGE_TOKEN
